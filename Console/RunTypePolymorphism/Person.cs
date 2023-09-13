@@ -67,7 +67,7 @@ namespace RunTypePolymorphism
             Console.WriteLine("Date submitted successfully!!");
         }
     }
-    public class Lead : Person
+    public class Lead : Person 
     {
         public override void FillForm()
         {
