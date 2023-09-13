@@ -11,7 +11,7 @@ namespace RunTypePolymorphism
         int CustomerType { get; set; }
         string FullName { get; set; }
         string Address { get; set; }
-        int Mobilenumber { get; set; }
+        long Mobilenumber { get; set; }
         void FillForm();
         void Validate();
     }

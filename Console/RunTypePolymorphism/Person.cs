@@ -11,7 +11,7 @@ namespace RunTypePolymorphism
         public int CustomerType { get; set; }
         public string FullName { get; set; }
         public string Address { get; set; }
-        public int Mobilenumber { get; set; }
+        public long Mobilenumber { get; set; }
         public virtual void FillForm()
         {
             Console.WriteLine("Enter the Customer Full Name: ");
@@ -21,7 +21,7 @@ namespace RunTypePolymorphism
             Address = Console.ReadLine();
 
             Console.WriteLine("Enter the Customer Mobile Number: ");
-            Mobilenumber = Int32.Parse(Console.ReadLine());
+            Mobilenumber = Int64.Parse(Console.ReadLine());
         }
 
         public virtual void Validate()
@@ -51,19 +51,20 @@ namespace RunTypePolymorphism
             {
                 throw new Exception("is not string");
             }
-            if (Mobilenumber < 0 || Mobilenumber > 10)
+            if (Mobilenumber < 0 || Mobilenumber.ToString().Length > 10)
             {
                 throw new Exception("Invalid mob number");
             }
             if (BillAmount < 0)
             {
-                throw new Exception("Invalid mob number");
+                throw new Exception("Bill Amount should be greater than zero");
             }
             //date time validate
             //if (!DateTime.TryParse(UTCDate, out tempDate))
             //{
             //    throw new Exception("Invalid mob number");
             //}
+            Console.WriteLine("Date submitted successfully!!");
         }
     }
     public class Lead : Person
@@ -82,10 +83,11 @@ namespace RunTypePolymorphism
             {
                 throw new Exception("is not string");
             }
-            if (Mobilenumber < 0 || Mobilenumber > 10)
+            if (Mobilenumber < 0 || Mobilenumber.ToString().Length > 10)
             {
                 throw new Exception("Invalid mob number");
             }
+            Console.WriteLine("Date submitted successfully!!");
         }
     }
 }
