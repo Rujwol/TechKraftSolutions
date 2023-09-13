@@ -12,6 +12,7 @@ namespace RunTypePolymorphism
             Factory factobj = new Factory();
             user = factobj.CreateObj(CustomerTypeUI);
             user.FillForm();
+            user.Validate();
             Console.Read();
         }
     }

@@ -72,6 +72,20 @@ namespace RunTypePolymorphism
         {
             base.FillForm();
         }
-        public override void Validate() { }
+        public override void Validate() 
+        {
+            if (string.IsNullOrEmpty(FullName))
+            {
+                throw new Exception("is not string");
+            }
+            if (string.IsNullOrEmpty(Address))
+            {
+                throw new Exception("is not string");
+            }
+            if (Mobilenumber < 0 || Mobilenumber > 10)
+            {
+                throw new Exception("Invalid mob number");
+            }
+        }
     }
 }

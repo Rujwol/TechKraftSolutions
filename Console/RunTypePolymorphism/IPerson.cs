@@ -13,5 +13,6 @@ namespace RunTypePolymorphism
         string Address { get; set; }
         int Mobilenumber { get; set; }
         void FillForm();
+        void Validate();
     }
 }
