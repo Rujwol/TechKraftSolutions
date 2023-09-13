@@ -1,0 +1,15 @@
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.csproj.AssemblyReference.cache
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.AssemblyInfoInputs.cache
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.AssemblyInfo.cs
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.csproj.CoreCompileInputs.cache
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\bin\Debug\net7.0\RunTypePolymorphism.exe
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\bin\Debug\net7.0\RunTypePolymorphism.deps.json
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\bin\Debug\net7.0\RunTypePolymorphism.runtimeconfig.json
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\bin\Debug\net7.0\RunTypePolymorphism.dll
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\bin\Debug\net7.0\RunTypePolymorphism.pdb
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.dll
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\refint\RunTypePolymorphism.dll
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.pdb
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\RunTypePolymorphism.genruntimeconfig.cache
+D:\Codes\dotnet_projects\bootcamp\Console\RunTypePolymorphism\obj\Debug\net7.0\ref\RunTypePolymorphism.dll
